@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/profilegroup">
+
+        <item android:id="@+id/myprofileFragment"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="MY Profile"/>
+        <item android:id="@+id/memberRequestFragment"
+            android:icon="@drawable/member"
+            android:title="Member Request"/>
+        <item android:id="@+id/complaintsFragment"
+            android:icon="@drawable/member"
+            android:title="Complaints"/>
+    </group>
+
+    <group android:id="@+id/eventgroup">
+
+        <item android:id="@+id/noticeFragment"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Notice"/>
+        <item android:id="@+id/eventsFragment"
+            android:icon="@drawable/member"
+            android:title="Events"/>
+    </group>
+
+    <group android:id="@+id/logoutgroup">
+
+        <item android:id="@+id/logoutFragment"
+            android:icon="@drawable/member"
+            android:title="Logout"/>
+    </group>
+</menu>
